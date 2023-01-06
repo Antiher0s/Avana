@@ -1,0 +1,25 @@
+footer{
+    background: #fff;
+    padding: 110px;
+    text-align: center;
+    &>*{
+        margin: 50px 0px;
+        color: #9c9c9c;
+    }
+    span{
+        font-size: 12px;
+    }
+}
+.footer-nav a, .social-nav a{
+    color: #9c9c9c;
+        text-decoration: none;
+}
+.footer-nav a{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.social-nav a{
+    font-size: 30px;
+    margin: 0 10px;
+}
