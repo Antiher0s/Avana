@@ -1,0 +1,14 @@
+.large-project{
+    h1{
+        color: #fff;
+        text-transform: uppercase;
+        span{
+            font-weight: 800;
+        }
+    }
+}
+.top-page{
+    .large-project{
+        background: url(../../img/image-1.jpg) center/cover;
+    }
+}
