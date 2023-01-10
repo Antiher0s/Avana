@@ -19,10 +19,7 @@
     margin: 0 auto;
         width: 90%;
         *:focus{
-            border-bottom-color: #9f9e9e;
-            border-left: none;
-            border-right: none;
-            border-top: none;
+            outline: none;
         }
         textarea{
             width: 100%;
