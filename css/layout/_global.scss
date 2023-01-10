@@ -1,3 +1,7 @@
+::selection{
+    background: #fb5353;
+    color: #fff;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     background: #f6f6f6;
@@ -9,9 +13,14 @@ main{
     margin: 0 auto;
 }
 .top-page{
+    
     display: flex;
     gap: 20px;
     
+}
+.top-page-blog{
+    display: flex;
+    gap: 20px;
 }
 .titles{
     width: calc(50% - 10px);
@@ -47,6 +56,9 @@ main{
         top: 0;
         left: 0;
     }
+}
+.article{
+    width: calc(50% - 10px);
 }
 .large-project{
     height: 500px;
